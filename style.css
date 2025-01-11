@@ -50,6 +50,8 @@ h1{
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+  margin: 0;
+  padding: 0;
 }
 .info{
   color: #f9faf8;
@@ -68,3 +70,35 @@ button{
   font-weight: bold;
   border-radius: 4px;
 }
+
+.picture-header{
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  margin: 32px;
+}
+
+.picture-info{
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+.content{
+  max-width: 200px;
+  color: #1F2937;
+}
+
+p{
+  margin: 0;
+}
+
+
+
