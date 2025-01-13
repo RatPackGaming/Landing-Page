@@ -52,6 +52,7 @@ h1{
   color: #f9faf8;
   margin: 0;
   padding: 0;
+  line-height: 100%;
 }
 .info{
   color: #f9faf8;
@@ -64,7 +65,7 @@ button{
   height: 30px;
   width: 100px;
   background-color: #3882F6;
-  border: none;
+  border: 64px green;
   color: white;
   margin-top: 8px;
   font-weight: bold;
@@ -94,10 +95,39 @@ img{
 .content{
   max-width: 200px;
   color: #1F2937;
+  font-size: 14px;
 }
 
-p{
+.quote{
+  text-align: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  padding: 42px;
+  display: flex;
+  flex-direction: column;
   margin: 0;
+}
+
+.person{
+  margin-top: 0;
+  margin-right: 64px;
+  color: black;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.sign-up-box{
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.white-border{
+  font-weight: bold;
+  border: 2px solid white;
 }
 
 
